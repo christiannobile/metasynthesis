@@ -43,11 +43,10 @@ $('#ID').attr('class', '.CLASS');
 $(".CLASS").hide();
 ```
 
-SUMMARY
-
-Adress element by  
+## SUMMARY
+Adress element by #ID TAG .CLASS
 ```
-#ID TAG .CLASS
+$('ELEMENT').
 ```
 Adress Multiple Elements
 ```
