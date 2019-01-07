@@ -2,78 +2,78 @@
 ## 1 : Immidiate Actions
 1. Adress element by ID Change property display to none
 ```
-$("#ID").hide();
+  $("#ID").hide();
 ```
 2. Adress element by ID Change property display to block
 ```
-$("#ID").show();
+  $("#ID").show();
 ```
 3. Adress element by ID Change property font-family to Courier
 ```
-$("#ID").css('font-family','Courier');
+  $("#ID").css('font-family','Courier');
 ```
 4. Adress element by TAG Change property color to red
 ```
-$("TAG").css('color', 'red');
+  $("TAG").css('color', 'red');
 ```
 5. Adress element by ID Change InnerHTML to empty
 ```
-$("#ID").empty();
+  $("#ID").empty();
 ```
 6. Adress element by CLASS Change property display to none
 ```
-$(".CLASS").hide();
+  $(".CLASS").hide();
 ```
 7. Adress element by CLASS Change removeHTML
 ```
-$('.CLASS').remove();
+  $('.CLASS').remove();
 ```
 8. Adress element by TAG in TAG Change property color to red
 ```
-$('TAG TAG').css('color', 'red');
+  $('TAG TAG').css('color', 'red');
 ```
 9. Adress element by ID's Change property border to 5px dotted green
 ```
-$('#ID, #ID').css('border', '5px dotted green');
+  $('#ID, #ID').css('border', '5px dotted green');
 ```
 10. Adress element by ID add CLASS adressed in 6 / Hide subject CLASS
 ```
-$('#ID').attr('class', '.CLASS');
-$(".CLASS").hide();
+  $('#ID').attr('class', '.CLASS');
+  $(".CLASS").hide();
 ```
 
 ## SUMMARY
 Adress element by #ID TAG .CLASS
 ```
-$('ELEMENT').
+  $('ELEMENT').
 ```
 Adress Multiple Elements
 ```
-$('ELEMENT , ELEMENT').
+  $('ELEMENT , ELEMENT').
 ```
 Adress Nested Element
 ```
-$('ELEMENT ELEMENT').
+  $('ELEMENT ELEMENT').
 ```
 **Perform Action**
 Change Visibility
 ```
-hide();
-show();
+  hide();
+  show();
 ```
 Change Property
 ```
-css('Property','Value');
+  css('Property','Value');
 ```
 Change Attribute
 ```
-attr('ATTRIBUTE', 'VALUE');
+  attr('ATTRIBUTE', 'VALUE');
 ```
 Remove InnerHTML 
 ```
-empty();
+  empty();
 ```
 Remove HTML
 ```
-remove();
+  remove();
 ```
