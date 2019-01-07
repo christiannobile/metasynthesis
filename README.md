@@ -1,2 +1,2 @@
-# MetaSynthesis
-Read **Topology** for Sequence and Structure
+Recall Of Topology.md
+
