@@ -26,18 +26,18 @@ And Show them in an Alert, each fitting one line.
 ```
 4. Repeat 3. , but also ask for firstname and city.
 ```
-var xinit 		= {word:"Init 		: ", value:"null" };
-var xname 		= {word:"Νame 	: ", value:"Doe" };
-var xfirstname 		= {word:"Firstame 	: ", value:"John"};
-var xcity 		= {word:"City 		: ", value:"Genk"};
+	var xinit 		= {word:"Init 		: ", value:"null" };
+	var xname 		= {word:"Νame 	: ", value:"Doe" };
+	var xfirstname 		= {word:"Firstame 	: ", value:"John"};
+	var xcity 		= {word:"City 		: ", value:"Genk"};
 
-var name 		= prompt("name : ");
-var firstname 		= prompt("firstname : ");
-var city 			= prompt("city : ");
+	var name 		= prompt("name : ");
+	var firstname 		= prompt("firstname : ");
+	var city 			= prompt("city : ");
 
-xname.value		= name;
-xfirstname.value	= firstname;
-xcity.value		= city;
+	xname.value		= name;
+	xfirstname.value	= firstname;
+	xcity.value		= city;
 ```
 ```
  	 alert(
@@ -69,12 +69,12 @@ xcity.value		= city;
 ```
 8. Prompt the user for their birthyear, and conclude if they are an adult.
 ```
-var birthyear 	= prompt("Your BirthYear : ")
-var today 	= new Date();
-var age 		= today.getFullYear() - birthyear;
+	var birthyear 	= prompt("Your BirthYear : ")
+	var today 	= new Date();
+	var age 		= today.getFullYear() - birthyear;
 
-if (age > 18){	alert("u are an adult");	}
-else {	alert("u are a minor");	}
+	if (age > 18){	alert("u are an adult");	}
+	else {	alert("u are a minor");	}
 ```
 ## SUMMARY
 Creating objects, Prompting Values, Assigning variables and values
